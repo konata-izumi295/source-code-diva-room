@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DivaRoom/DivaRoom.vcxproj" Id="1bcab011-9bb7-4761-b36e-88fbf592cc63" />
+</Solution>

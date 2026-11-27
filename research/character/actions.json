@@ -1,0 +1,62 @@
+{
+  "clips": [
+    [
+      "idle",
+      4
+    ],
+    [
+      "walk",
+      1
+    ],
+    [
+      "phone",
+      4
+    ],
+    [
+      "lie_phone",
+      4
+    ],
+    [
+      "dance",
+      8
+    ],
+    [
+      "place_phone",
+      4
+    ],
+    [
+      "pick_phone",
+      4
+    ],
+    [
+      "sit_phone",
+      4
+    ],
+    [
+      "bed_entry",
+      6
+    ],
+    [
+      "turn",
+      1
+    ],
+    [
+      "bed_exit",
+      5
+    ],
+    [
+      "sit_down",
+      3
+    ],
+    [
+      "stand_up",
+      3
+    ],
+    [
+      "seated_draw",
+      2
+    ]
+  ],
+  "character_scale": 0.6,
+  "notes": "Original bind skeleton; room-specific authored motions. Phone contact and transitions require runtime placement."
+}

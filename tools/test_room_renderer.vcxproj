@@ -1,0 +1,12 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+ <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Release|x64"><Configuration>Release</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+ <PropertyGroup Label="Globals"><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion></PropertyGroup>
+ <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+ <PropertyGroup Label="Configuration"><ConfigurationType>Application</ConfigurationType><PlatformToolset>v145</PlatformToolset></PropertyGroup>
+ <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+ <PropertyGroup><OutDir>$(ProjectDir)..\build\room-view\</OutDir><IntDir>$(ProjectDir)..\build\room-test-obj\</IntDir><TargetName>TestRoomRenderer</TargetName><LinkIncremental>false</LinkIncremental></PropertyGroup>
+ <ItemDefinitionGroup><ClCompile><PreprocessorDefinitions>DIVA_ROOM_TESTING;%(PreprocessorDefinitions)</PreprocessorDefinitions><LanguageStandard>stdcpp20</LanguageStandard><AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions><RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary><DebugInformationFormat>None</DebugInformationFormat><WholeProgramOptimization>false</WholeProgramOptimization></ClCompile><Link><SubSystem>Console</SubSystem><GenerateDebugInformation>false</GenerateDebugInformation><LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration></Link></ItemDefinitionGroup>
+ <ItemGroup><ClCompile Include="test_room_renderer.cpp"/><ClCompile Include="..\DivaRoom\RoomView.cpp"/></ItemGroup>
+ <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+</Project>
+

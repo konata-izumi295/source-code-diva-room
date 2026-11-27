@@ -1,0 +1,9 @@
+build/
+x64/
+.vs/
+**/x64/
+**/__pycache__/
+*.pyc
+*.user
+*.blend1
+backups/
